@@ -1,0 +1,22 @@
+{
+  "name": "tutoriel_tape",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/tape ./test/*.test.js",
+    "coverage": "istanbul cover tape ./test/*.test.js && istanbul check-coverage --statements 100 --functions 100 --lines 100 --branches 100"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tape": "^4.10.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "nyc": "^14.1.1"
+  },
+  "description": ""
+}
