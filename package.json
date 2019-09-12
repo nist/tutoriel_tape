@@ -1,6 +1,8 @@
 {
   "name": "tutoriel_tape",
+  "description": "Tutoriel sur l'utilisation de la librairie de test Tape.",
   "version": "1.0.0",
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
     "test": "node_modules/.bin/tape ./test/*.test.js",
@@ -19,5 +21,8 @@
     "nyc": "^14.1.1",
     "standard": "*"
   },
-  "description": ""
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nist/tutoriel_tape.git"
+  }
 }
